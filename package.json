@@ -1,0 +1,47 @@
+{
+  "name": "nuffsaid-challange",
+  "version": "0.0.1",
+  "description": "nuffsaid.com challange",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "author": "nuffsaid.com",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "classnames": "^2.3.1",
+    "faker": "^5.5.3",
+    "lodash": "^4.17.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "use-callback-ref": "^1.2.5"
+  },
+  "devDependencies": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/src/**/*.js",
+      "!**/__tests__/**"
+    ]
+  },
+  "repository": "git@gitlab.com:arnab8/nuffsaid-frontend-coding-challenge.git"
+}
